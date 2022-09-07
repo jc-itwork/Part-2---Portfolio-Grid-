@@ -1,0 +1,21 @@
+$primary-color: #c3cfe2;
+$secondary-color: #1a1918;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+
+@media (max-width: 600px) {
+    .gallery {
+        display: grid;
+     grid-template-columns: 1fr;
+        margin: 20px;
+        gap: 20px;
+}
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    gap: 20px;
+  }
+}
+body .container {
+  background: #c3cfe2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 20px 20px;
+  padding: 20px;
+  gap: 20px;
+}
+.gallery .image-box {
+  width: 240px;
+}
+.gallery .image-box .image {
+  border-radius: 20px;
+  width: 240px;
+}/*# sourceMappingURL=Part2.css.map */
